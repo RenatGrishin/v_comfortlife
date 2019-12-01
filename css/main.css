@@ -27,6 +27,24 @@ input:focus{
     outline-offset: 0;
 }
 
+/*  Style standart  */
+h2{
+    font-family: GPB;
+    font-size: 32px;
+    color: #000;
+}
+.button{
+    background-color: rgba(209, 220, 190);
+    color: #fff;
+    font-size: 16px;
+    font-family: GPM;
+    padding: 16px 40px;
+    letter-spacing: 1.5pt;
+}
+slideBut{
+    background-color: rgba(209, 220, 190, 0.8);
+}
+
 
 /*  Header  */
 .header{
@@ -164,4 +182,48 @@ input:focus{
     position: absolute;
     z-index: 100;
     bottom: 50px;
+}
+
+
+/*  AboutUs  */
+.sec-AbUs{
+    width: 100%;
+    height: 600px;
+    background-color: #fff;
+}
+.sec-AbUs img{
+    width: 50%;
+    height: 600px;
+    float: left;
+    object-fit: cover;
+}
+.sec-AbUs article{
+    width: 50%;
+    float: right;
+    background-color: #fff;
+    font-size: 18px;
+    color: #000;
+}
+.secAbUs-pad{
+    padding: 70px
+}
+.secAbUs-pad h2{
+    padding-bottom:40px;
+}
+.secAbUs-pad p{
+    line-height: 20pt;
+    padding-bottom: 24px;
+}
+.buttonA{
+    
+}
+
+
+
+
+/*  ClearFix  */
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
 }

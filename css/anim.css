@@ -1,8 +1,15 @@
 @keyframes arrowDown {
 from{
-    bottom: 100px;
+    bottom: 55px;
+    opacity: 0.7;
     }
 to {
-    bottom: 50px;
+    bottom: 45px;
+    opacity: 1;
     }
+}
+
+.slide-panel div a{
+    animation: arrowDown  1.4s infinite ease;
+    animation-direction: alternate;
 }
