@@ -1,0 +1,12 @@
+@font-face {
+    font-family: GPL; 
+    src: url(GothaProLig.ttf);
+}
+@font-face {
+    font-family: GPM; 
+    src: url(GothaProMed.ttf);
+}
+@font-face {
+    font-family: GPB; 
+    src: url(GothaProBol.ttf);
+}
