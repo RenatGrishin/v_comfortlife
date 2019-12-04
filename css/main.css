@@ -31,7 +31,7 @@ input:focus{
 h2{
     font-family: GPB;
     font-size: 32px;
-    color: #000;
+    color: #183440;
 }
 .button{
     background-color: rgba(209, 220, 190);
@@ -229,6 +229,7 @@ slideBut{
     margin-left: 10%;
     margin-right: 10%;
     padding-top: 100px;
+    padding-bottom: 50px;
 }
 .ow-width h2{
     padding-bottom: 50px;
@@ -275,6 +276,108 @@ slideBut{
 }
 .btnB{
     line-height: 40pt;
+}
+
+
+/*  Services and Price  */
+.services-price{
+    width: 100%;
+    height: 740px;
+    background-image: url(../images/11.jpg);
+}
+.sp-black{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(24, 52, 64, 0.8);
+}
+.sp-width{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    position: relative;
+}
+.sp-width h2{
+    color: #fff;
+    position: absolute;
+    width: 63.33333%;
+    top: 55px;
+    right: 0;
+}
+.sp-width ul{
+    position: absolute;
+    top: -30px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.sp-width ul li{
+    width: 32%;
+    height: 740px;
+}
+.sp-width ul li div{
+    width: 89%;
+    height: 530px;
+    background-color: #183440;
+    margin-top: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.sp-width ul li div h3{
+    font-size: 22px;
+    font-family: GPB;
+    width: 82%;
+    margin-left: 9%;
+    margin-right: 9%;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    
+}
+.sp-width ul li div p{
+    width: 82%;
+    margin-left: 9%;
+    margin-right: 9%;
+    margin-bottom: 18px;
+    text-align: left;
+    font-size: 16px;
+    font-family: GPL;
+    line-height: 18pt;
+}
+.sp-width ul li div h5{
+    color: #D1DCBE;
+    font-size: 30px;
+    font-family: GPB;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.sp-width ul li div h5 span{
+    font-size: 22px;
+    font-family: GPL;
+}
+.sp-width ul li div a{
+    font-size: 16px;
+    font-family: GPM;
+    padding: 16px 40px;
+    border: 1px solid #D1DCBE;
+}
+.sp-width ul li:first-child{
+    background-image: url(../images/2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0 0 6px rgba(0,0,0,0.4);
+}
+.sp-width ul li:first-child div{
+    border: 1px solid #D1DCBE;
+    background-color: #fff;
+    color: #183440;
+}
+.sp-width ul li:first-child div p{
+    font-family: GPM;
+}
+.sp-width ul li:first-child div h5{
+    color: #183440;
 }
 
 
