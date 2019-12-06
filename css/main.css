@@ -5,7 +5,7 @@ body,input{
     font-size: 16px;
     background-color: darkslategrey;
 }
-body, p, span, a, li, ul, h1, h2, h3, h4, h5, h6, div, nav, article, section{
+body, p, span, a, li, ul, h1, h2, h3, h4, h5, h6, div, nav, article, section,form,input{
     margin: 0;
     padding: 0;
 }
@@ -41,6 +41,17 @@ h2{
     padding: 16px 40px;
     letter-spacing: 1.5pt;
 }
+.button-invert{
+    background-color: rgba(209, 220, 190, 0);
+    color: #fff;
+    font-size: 16px;
+    font-family: GPM;
+    padding: 16px 40px;
+    letter-spacing: 1.5pt;  
+    border: 1px solid #D1DCBE;
+    color: #D1DCBE;
+}
+
 slideBut{
     background-color: rgba(209, 220, 190, 0.8);
 }
@@ -282,7 +293,7 @@ slideBut{
 /*  Services and Price  */
 .services-price{
     width: 100%;
-    height: 740px;
+    height: 760px;
     background-image: url(../images/11.jpg);
 }
 .sp-black{
@@ -299,7 +310,7 @@ slideBut{
 .sp-width h2{
     color: #fff;
     position: absolute;
-    width: 63.33333%;
+    width: 64.33333%;
     top: 55px;
     right: 0;
 }
@@ -380,6 +391,184 @@ slideBut{
     color: #183440;
 }
 
+
+/*  Our Personal  */
+.our-personal{
+    width: 100%;
+    height: 700px;
+    background-color: #fff;
+    color: #183440;
+}
+.op-width{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 80px;
+}
+.op-width h2{
+    padding-bottom: 40px;
+}
+.op-width ul{
+    width: 100%;
+}
+.op-width ul li{
+    width: 30.83333333333333%;
+    height: 40px;
+    float: left;
+    margin-right: 3.74%;
+    position: relative;
+}
+.op-width ul li:nth-child(1){
+    height: 485px;
+}
+.op-width ul li:nth-child(2), .op-width ul li:nth-child(3){
+    height: 233px;
+    margin-bottom: 45px;
+}
+.op-width ul li:nth-child(4), .op-width ul li:nth-child(5), .op-width ul li:nth-child(6){
+    width: 19.31166666666667%;
+    height: 207px;
+}
+.op-width ul li:nth-child(3), .op-width ul li:nth-child(6){
+    margin-right: 0px;
+}
+.op-width ul li img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.op-width ul li p{
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    background-color: rgba(24, 25, 64, 0.6);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 22px;
+    font-family: GPB;
+}
+.op-width ul li p span{
+    font-size: 18px;
+    font-family: GPL;
+}
+
+/*  Send Message  */
+.our-contacts{
+    width: 100%;
+    height: 500px;
+    background-image: url(../images/11.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.our-contacts>div{
+    width: 100%;
+    height: 100%;
+    background-color:  rgba(0,0,0, 0.9);
+}
+.oc-width{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.oc-width h2{
+    color: #fff;
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+.oc-width form{
+    width: 100%;
+}
+.oc-width form input[type="text"]{
+    width: 45.8333333%;
+    background-color: rgba(0,0,0, 0);
+    border-bottom: 1px solid #fff;
+    font-family: GPL;
+    font-size: 22px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.oc-width form .your-name{
+    margin-right: 8.015%;
+    margin-bottom: 8px;
+}
+.oc-width form input[type="text"]:focus, input:focus, textarea:focus{
+    outline: none;
+    border-bottom: 1px solid #D1DCBE;
+}
+.ypur-message{
+    width: 100%;
+    background-color: rgba(0,0,0, 0);
+    border: 0px;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    font-family: GPL;
+    font-size: 22px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+    resize: none;
+}
+
+
+/*  Footer  */
+.main-footer{
+    width: 100%;
+    background-color: #060D10;
+}
+.mf-width{
+    width: 80%;
+    height: 110px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.mf-width form{
+    padding-top: 36px;
+    width: 33%;
+    float: left;
+}
+.mf-width form input{
+    background-color: rgba(0,0,0, 0);
+    border-bottom: 1px solid #fff;
+    font-family: GPL;
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.mf-width form input.button-invert{
+    font-family: GPb;
+    font-size: 12px;
+    padding: 6px 20px;
+    margin-left: 10px;
+}
+.mf-width .mf-logo{
+    margin-top: 40px;
+    width: 33%;
+    float: left;
+    font-size: 24px;
+    font-family: GPL;
+    color: #fff;
+    text-align: center;
+}
+.mf-width .mf-logo a{
+    color: #fff;
+}
+.mf-width .mf-logo a span{
+    font-size: 24px;
+    font-family: GPL;
+    color: #D1DCBE;
+}
+.mf-width p{
+    width: 33%;
+    float: right;
+    text-align: right;
+    line-height: 24pt;
+    font-size: 16px;
+    margin-top: 22px
+}
 
 
 /*  ClearFix  */
