@@ -1,3 +1,4 @@
+/*  Arrow in Down   */
 @keyframes arrowDown {
 from{
     bottom: 55px;
@@ -12,4 +13,137 @@ to {
 .slide-panel div a{
     animation: arrowDown  1.4s infinite ease;
     animation-direction: alternate;
+}
+
+/*  Button Slide  */
+@keyframes btnSlide{
+    from{
+        background-color: rgba(255, 255, 255, 1);
+        color: #183440;
+    }
+    to{
+        background-color: rgba(209, 220, 190, 0.8);
+        color: #fff;
+    }
+}
+@keyframes btnSlide-hover{
+    from{
+        background-color: rgba(209, 220, 190, 0.8);
+        color: #fff;
+    }
+    to{
+        background-color: rgba(255, 255, 255, 1);
+        color: #183440;
+    }
+}
+.slider-cont a{
+    animation: btnSlide  0.5s infinite ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.slider-cont a:hover{
+    animation: btnSlide-hover  0.5s infinite ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+/*  White button  */
+@keyframes button{
+    from{
+        background-color: #183440;
+        color: #fff;
+    }
+    to{
+        background-color: #D1DCBE;
+        color: #fff;
+    }
+}
+@keyframes button-hover{
+    from{
+        background-color: #D1DCBE;
+        color: #fff;
+    }
+    to{
+        background-color: #183440;
+        color: #fff;
+    }
+}
+.button{
+    animation: button  0.5s infinite ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.button:hover{
+    animation: button-hover  0.5s infinite ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+/* Services and Price */
+@keyframes spButton{
+    from{
+        background-color: #D1DCBE;
+        color: #FFF;
+    }
+    to{
+        background-color: rgba(0,0,0, 0);
+        color: #D1DCBE;
+    }
+}
+@keyframes spButton-hover{
+    from{
+        background-color: rgba(0,0,0, 0);
+        color: #D1DCBE;
+    }
+    to{
+        background-color: #D1DCBE;
+        color: #FFF;
+    }
+}
+.spButton{
+    animation: spButton  0.5s infinite ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.spButton:hover{
+    animation: spButton-hover  0.5s infinite ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+
+/* Images Last Work's */
+@keyframes imageLastWorks{
+    from{
+        width: 105%;
+        height: 105%;
+        opacity: 0.6;
+    }
+    to{
+        width: 100%;
+        height: 100%;
+        opacity: 0.7;
+    }
+}
+@keyframes imageLastWorks-hover{
+    from{
+        width: 100%;
+        height: 100%;
+        opacity: 0.7;
+    }
+    to{
+        width: 105%;
+        height: 105%;
+        opacity: 0.6;
+    }
+}
+.ow-width ul li a img{
+    animation: imageLastWorks  0.5s infinite ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.ow-width ul li a:hover img{
+    animation: imageLastWorks-hover  0.5s infinite ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }

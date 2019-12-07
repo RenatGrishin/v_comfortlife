@@ -95,6 +95,13 @@ slideBut{
 .header nav ul li:not(:last-of-type){
     margin-right: 50px;
 }
+.header nav ul li a{
+    color: #fff;
+}
+.header nav ul li a:hover{
+    color: #D1DCBE;
+}
+
 
 /*  Search  */
 .search{
@@ -105,6 +112,7 @@ slideBut{
     font-size: 14px;
     background-color: rgba(0,0,0,0);  
     background: url(../img/search_icon.png) no-repeat;
+    background-position: 0 0;
     width: 20px;
     height: 21px;
     float: right;
@@ -119,6 +127,12 @@ slideBut{
     margin-top: 26px;
     margin-right: 14px;
     width: 200px;
+}
+.search input[type='text']:focus{
+    border-bottom: 1px solid #D1DCBE;
+}
+.search input[type='submit']:hover{
+    background-position: -20px 0;
 }
 
 
@@ -260,6 +274,7 @@ slideBut{
     position: relative;
     z-index: 10;
     text-align: center;
+    overflow: hidden;
 }
 .ow-width ul li a{
     color: #fff;
@@ -498,6 +513,7 @@ slideBut{
 .oc-width form input[type="text"]:focus, input:focus, textarea:focus{
     outline: none;
     border-bottom: 1px solid #D1DCBE;
+    color: #D1DCBE;
 }
 .ypur-message{
     width: 100%;
@@ -530,13 +546,16 @@ slideBut{
     width: 33%;
     float: left;
 }
-.mf-width form input{
+.mf-width form input[type="text"]{
     background-color: rgba(0,0,0, 0);
     border-bottom: 1px solid #fff;
     font-family: GPL;
     font-size: 14px;
     padding-top: 10px;
     padding-bottom: 5px;
+}
+.mf-width form input:focus{
+    border-bottom: 1px solid #D1DCBE;
 }
 .mf-width form input.button-invert{
     font-family: GPb;
