@@ -28,20 +28,36 @@
     </header>
     <main>
     <section class="slider"> <!--  Slider   -->
-        <article>
-            <div class="slider-cont">
-                <h1>СДЕЛАЕМ ВАШУ ЖИЗНЬ<br>КОМФОРТНОЙ</h1>
-                <a class="slideBut" href="#">ПРОСМОТРЕТЬ РАБОТЫ</a>
-            </div>
-            <img src="images/6.jpg">
-        </article>
+        <ul class="RGSlides">
+            <li class="RGSlide-select">
+                <img src="images/6.jpg">
+                <article>
+                    <h1>СДЕЛАЕМ ВАШУ ЖИЗНЬ <br>КОМФОРТНОЙ</h1>
+                    <a href="#">ПРОСМОТРЕТЬ РАБОТЫ</a>
+                </article>
+            </li>
+            <li>
+                <img src="images/13.jpg">
+                <article>
+                    <h1>СДЕЛАЕМ ВАШУ ЖИЗНЬ <br>КОМФОРТНОЙ</h1>
+                    <a href="#">ПРОСМОТРЕТЬ РАБОТЫ</a>
+                </article>
+            </li>
+            <li>
+                <img src="images/14.jpg">
+                <article>
+                    <h1>СДЕЛАЕМ ВАШУ ЖИЗНЬ <br>КОМФОРТНОЙ</h1>
+                    <a href="#">ПРОСМОТРЕТЬ РАБОТЫ</a>
+                </article>
+            </li>
+        </ul>
+        <div class="RGSlCont-arrows">
+            <button class="RGArrow-left" onclick="RGЗreviousSlide()">&#8592;</button>
+            <button class="RGArrow-right" onclick="RGNextSlide()">&#8594;</button>
+        </div>
+        <div class="RGSlCont-knobs">
+        </div>
         <div class="slide-panel">
-            <ul>
-                <li class="sl-dot-sel"></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
             <div><a href="#"><img src="img/arrow_down.png"></a></div>
         </div>
     </section><!--  Slider End   -->
@@ -179,6 +195,7 @@
         <p>+7 (987) 654 32 10<br>Татарстан, ул. Чехова, д.15</p>
     </div>
     </footer>
+        <script src="js/main.js"></script>
     </main>
 </body>
 </html>

@@ -36,12 +36,12 @@ to {
         color: #183440;
     }
 }
-.slider-cont a{
+.RGSlide-select article a{
     animation: btnSlide  0.5s infinite ease;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
-.slider-cont a:hover{
+.RGSlide-select article a:hover{
     animation: btnSlide-hover  0.5s infinite ease;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
