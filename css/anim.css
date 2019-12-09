@@ -1,16 +1,16 @@
 /*  Arrow in Down   */
 @keyframes arrowDown {
 from{
-    bottom: 55px;
+    bottom: 4%;
     opacity: 0.7;
     }
 to {
-    bottom: 45px;
+    bottom: 2%;
     opacity: 1;
     }
 }
 
-.slide-panel div a{
+.slide-panel{
     animation: arrowDown  1.4s infinite ease;
     animation-direction: alternate;
 }
